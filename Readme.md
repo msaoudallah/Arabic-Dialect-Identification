@@ -2,7 +2,7 @@
 
 - This project includes my work on Arabic Dialect Identification Project.
 
-- Dialect Identification is the process of classifyingg Arabic text to Corresponding Dialect eg: Egyptian, Syrian, ...
+- Dialect Identification is the process of classifying Arabic text to Corresponding Dialect eg: Egyptian, Syrian, ...
 
 - Used  [QADI](https://www.kooora.com/) Dataset with the help of [AIM Technologies API ](https://www.kooora.com/) to retrieve Data.
 
