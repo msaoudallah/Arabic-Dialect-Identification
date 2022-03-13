@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>لهجات</title>
+    <style>
+      @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+      html,
+      body,
+      div,
+      form,
+      input,
+      textarea,
+      button,
+      p {
+        padding: 0;
+        margin: auto;
+        border-radius: 5px;
+        outline: none;
+        font-family: "Droid Arabic Kufi", serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #fff;
+        line-height: 22px;
+      }
+      h1 {
+        position: absolute;
+        margin: 0;
+        font-size: 32px;
+        color: white;
+        z-index: 2;
+      }
+
+      h4 {
+        font-size: 32px;
+        color: black;
+      }
+      .testbox {
+        justify-content: center;
+        align-items: center;
+        height: inherit;
+        padding: 20px;
+      }
+      form {
+        text-align: center;
+        width: 50%;
+        padding: 20px;
+        border-radius: 6px;
+        margin: auto;
+        background: #f3f3f3;
+      }
+      .banner {
+        position: relative;
+        height: 210px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 2px;
+      }
+      .banner::after {
+        content: "";
+        background-color: #ababab;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      input,
+      textarea {
+        margin-bottom: 10px;
+        border: 1px solid rgb(212, 34, 34);
+        border-radius: 3px;
+        width: calc(100% - 12px);
+        padding: 5px;
+        color: black;
+      }
+      input {
+        width: calc(100% - 10px);
+        padding: 5px;
+      }
+
+      textarea::-webkit-input-placeholder {
+        text-align: right;
+      }
+
+      input:hover::placeholder {
+        color: #cc0052;
+      }
+
+      button {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background: #ababab;
+        font-size: 16px;
+        color: #fff;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #636363;
+      }
+      a.button {
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+
+        text-decoration: none;
+        color: initial;
+      }
+
+      .toppred {
+        width: 40%;
+        margin: auto;
+        border-radius: 5px;
+        outline: none;
+        font-size: 18px;
+        font-size: 18px;
+        color: black;
+        line-height: 22px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <form>
+        <div class="banner" , style="height: 200px">
+          <h1>اللهجه الأكثر احتمالا هي</h1>
+        </div>
+        <br /><br /><br /><br />
+
+        <div class="Prediction">
+          <br />
+          <h4>{{data}}</h4>
+        </div>
+
+        <br /><br /><br /><br />
+        <button id="pred">
+          <a href="/" class="button">الصفحه الرئيسيه</a>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

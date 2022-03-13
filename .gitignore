@@ -1,0 +1,8 @@
+aim/
+__pycache__/
+
+assets/dlmodel.h5
+assets/mlmodel.pkl
+
+
+
